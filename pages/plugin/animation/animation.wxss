@@ -1,0 +1,11 @@
+image[class*="gif-"]{
+  border-radius: 6rpx;
+  display: block;
+}
+
+.gif-black{  
+  mix-blend-mode: screen;  
+}
+.gif-white{  
+  mix-blend-mode: multiply; 
+}

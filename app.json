@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "page/index/index",
+    "pages/basics/home/home",
+    "pages/basics/layout/layout",
+    "pages/basics/button/button",
+    "pages/basics/button/design",
+    "pages/basics/tag/tag",
+    "pages/basics/avatar/avatar",
+    "pages/basics/image/image",
+    "pages/basics/progress/progress",
+    "pages/basics/shadow/shadow",
+    "pages/basics/background/background",
+    "pages/basics/text/text",
+    "pages/basics/icon/icon",
+    "pages/basics/loading/loading",
+    "pages/component/home/home",
+    "pages/component/list/list",
+    "pages/component/bar/bar",
+    "pages/component/timeline/timeline",
+    "pages/component/chat/chat",
+    "pages/component/form/form",
+    "pages/component/nav/nav",
+    "pages/component/card/card",
+    "pages/component/swiper/swiper",
+    "pages/component/modal/modal",
+    "pages/component/steps/steps",
+    "pages/plugin/home/home",
+    "pages/plugin/indexes/indexes",
+    "pages/plugin/gradual/gradual",
+    "pages/plugin/animation/animation"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#39b54a",
+    "navigationBarTitleText": "Color UI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "component": true,
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#39b54a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "/images/tabbar/basics.png",
+        "selectedIconPath": "/images/tabbar/basics_cur.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "/images/tabbar/component.png",
+        "selectedIconPath": "/images/tabbar/component_cur.png",
+        "text": "攻略"
+      },
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "/images/tabbar/plugin.png",
+        "selectedIconPath": "/images/tabbar/plugin_cur.png",
+        "text": "论坛"
+      }
+    ]
+  }
+}
